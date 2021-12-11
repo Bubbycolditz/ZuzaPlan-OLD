@@ -110,5 +110,8 @@
   <ItemGroup>
     <None Include="Resources\zuza_logo_long.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zuza_logo_long1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
