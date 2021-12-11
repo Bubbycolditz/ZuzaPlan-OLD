@@ -48,8 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>hnet.com-image.ico</ApplicationIcon>
+    <ApplicationIcon>ZuzaPlan Icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -111,13 +112,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\zuza_logo_long.png" />
+    <None Include="Resources\ZuzaPlan.png" />
+    <Content Include="ZuzaPlan Icon.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\zuza_logo_long1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="hnet.com-image.ico" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
