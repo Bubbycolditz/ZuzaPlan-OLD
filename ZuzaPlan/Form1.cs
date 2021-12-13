@@ -61,5 +61,15 @@ namespace ZuzaPlan
         {
 
         }
+
+        private void notesLink_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void projectsLink_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
