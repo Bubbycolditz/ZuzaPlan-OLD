@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lineSeparator = new System.Windows.Forms.Label();
             this.projectsLink = new System.Windows.Forms.Button();
             this.assignmentsLink = new System.Windows.Forms.Button();
             this.calenderLinks = new System.Windows.Forms.Button();
@@ -40,7 +41,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.aboutProgram = new System.Windows.Forms.Button();
-            this.lineSeparator = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -62,16 +62,25 @@
             this.panel1.Controls.Add(this.projectsLink);
             this.panel1.Controls.Add(this.assignmentsLink);
             this.panel1.Controls.Add(this.calenderLinks);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.classScheduleLink);
             this.panel1.Controls.Add(this.notesLink);
             this.panel1.Controls.Add(this.onlineMeetingLinks);
-            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(210, 471);
             this.panel1.TabIndex = 5;
+            // 
+            // lineSeparator
+            // 
+            this.lineSeparator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lineSeparator.Location = new System.Drawing.Point(-1, 76);
+            this.lineSeparator.Name = "lineSeparator";
+            this.lineSeparator.Size = new System.Drawing.Size(240, 3);
+            this.lineSeparator.TabIndex = 8;
+            this.lineSeparator.Click += new System.EventHandler(this.label1_Click);
             // 
             // projectsLink
             // 
@@ -170,9 +179,9 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox1.Image = global::ZuzaPlan.Properties.Resources.ZuzaPlan_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(-68, -25);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 7);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(351, 153);
+            this.pictureBox1.Size = new System.Drawing.Size(189, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
@@ -188,7 +197,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 79F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 65F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 68F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 71F));
             this.tableLayoutPanel2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(226, 126);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1);
@@ -216,15 +225,6 @@
             this.aboutProgram.Text = "About";
             this.aboutProgram.UseVisualStyleBackColor = false;
             this.aboutProgram.Click += new System.EventHandler(this.button1_Click_1);
-            // 
-            // lineSeparator
-            // 
-            this.lineSeparator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lineSeparator.Location = new System.Drawing.Point(-1, 76);
-            this.lineSeparator.Name = "lineSeparator";
-            this.lineSeparator.Size = new System.Drawing.Size(240, 3);
-            this.lineSeparator.TabIndex = 8;
-            this.lineSeparator.Click += new System.EventHandler(this.label1_Click);
             // 
             // MainScreen
             // 
