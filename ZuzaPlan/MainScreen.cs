@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ZuzaPlan
 {
-    public partial class Form1 : Form
+    public partial class MainScreen : Form
     {
-        public Form1()
+        public MainScreen()
         {
             InitializeComponent();
         }
@@ -68,6 +68,17 @@ namespace ZuzaPlan
         }
 
         private void projectsLink_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            AboutScreen aboutScreen = new AboutScreen();
+            aboutScreen.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
