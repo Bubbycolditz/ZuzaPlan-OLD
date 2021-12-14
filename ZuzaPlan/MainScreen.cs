@@ -57,6 +57,15 @@ namespace ZuzaPlan
 
         }
 
+        private void Mouse_Move(object sender,MouseEventArgs e)
+        {
+            
+        }
+        private void MainScreen_MouseDown (object sender, MouseEventArgs e)
+        {
+        
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
@@ -85,7 +94,7 @@ namespace ZuzaPlan
 
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
-
+            
         }
 
         private void resizeButton_Click(object sender, EventArgs e)
@@ -111,6 +120,20 @@ namespace ZuzaPlan
         private void maximizeButton_Click(object sender, EventArgs e)
         {
             WindowState = FormWindowState.Maximized;
+        }
+
+        private void navbar_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
+        }
+        Point lastPoint;
+        private void navbar_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
         }
     }
 }
