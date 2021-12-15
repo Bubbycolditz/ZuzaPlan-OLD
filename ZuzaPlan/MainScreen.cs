@@ -147,7 +147,7 @@ namespace ZuzaPlan
 
         private void signInButton_Click(object sender, EventArgs e)
         {
-            SignInScreen signinScreen = new SignInScreen();
+            LoginScreen signinScreen = new LoginScreen();
             signinScreen.Show();
         }
 

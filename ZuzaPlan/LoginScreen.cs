@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ZuzaPlan
 {
-    public partial class SignInScreen : Form
+    public partial class LoginScreen : Form
     {
-        public SignInScreen()
+        public LoginScreen()
         {
             InitializeComponent();
         }
