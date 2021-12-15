@@ -135,5 +135,11 @@ namespace ZuzaPlan
                 this.Top += e.Y - lastPoint.Y;
             }
         }
+
+        private void signInButton_Click(object sender, EventArgs e)
+        {
+            SignInScreen signinScreen = new SignInScreen();
+            signinScreen.Show();
+        }
     }
 }

@@ -28,13 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lineSeparator = new System.Windows.Forms.Label();
             this.projectsButton = new System.Windows.Forms.Button();
             this.assignmentsButton = new System.Windows.Forms.Button();
             this.calenderButton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.classScheduleButton = new System.Windows.Forms.Button();
             this.notesButton = new System.Windows.Forms.Button();
             this.onlineMeetingButton = new System.Windows.Forms.Button();
@@ -42,24 +40,16 @@
             this.aboutButton = new System.Windows.Forms.Button();
             this.signInButton = new System.Windows.Forms.Button();
             this.navbar = new System.Windows.Forms.Panel();
+            this.signoutButton = new System.Windows.Forms.Button();
+            this.monthLabel = new System.Windows.Forms.Label();
             this.minimizeButton = new System.Windows.Forms.Button();
             this.maximizeButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.navbar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.AccessibleDescription = "";
-            this.textBox1.Location = new System.Drawing.Point(1328, 842);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(367, 38);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Todays Date";
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // panel1
             // 
@@ -74,19 +64,18 @@
             this.panel1.Controls.Add(this.onlineMeetingButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(560, 1788);
+            this.panel1.Size = new System.Drawing.Size(210, 750);
             this.panel1.TabIndex = 5;
             // 
             // lineSeparator
             // 
-            this.lineSeparator.BackColor = System.Drawing.Color.White;
+            this.lineSeparator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(170)))), ((int)(((byte)(225)))));
             this.lineSeparator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lineSeparator.Location = new System.Drawing.Point(-3, 267);
-            this.lineSeparator.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.lineSeparator.Location = new System.Drawing.Point(-1, 112);
             this.lineSeparator.Name = "lineSeparator";
-            this.lineSeparator.Size = new System.Drawing.Size(637, 4);
+            this.lineSeparator.Size = new System.Drawing.Size(240, 3);
             this.lineSeparator.TabIndex = 8;
             this.lineSeparator.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -97,10 +86,10 @@
             this.projectsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.projectsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.projectsButton.ForeColor = System.Drawing.Color.White;
-            this.projectsButton.Location = new System.Drawing.Point(0, 737);
-            this.projectsButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.projectsButton.Location = new System.Drawing.Point(0, 309);
+            this.projectsButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.projectsButton.Name = "projectsButton";
-            this.projectsButton.Size = new System.Drawing.Size(555, 153);
+            this.projectsButton.Size = new System.Drawing.Size(208, 64);
             this.projectsButton.TabIndex = 8;
             this.projectsButton.Text = "Projects";
             this.projectsButton.UseVisualStyleBackColor = false;
@@ -113,10 +102,10 @@
             this.assignmentsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.assignmentsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.assignmentsButton.ForeColor = System.Drawing.Color.White;
-            this.assignmentsButton.Location = new System.Drawing.Point(5, 591);
-            this.assignmentsButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.assignmentsButton.Location = new System.Drawing.Point(2, 248);
+            this.assignmentsButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.assignmentsButton.Name = "assignmentsButton";
-            this.assignmentsButton.Size = new System.Drawing.Size(555, 153);
+            this.assignmentsButton.Size = new System.Drawing.Size(208, 64);
             this.assignmentsButton.TabIndex = 10;
             this.assignmentsButton.Text = "Assignments ";
             this.assignmentsButton.UseVisualStyleBackColor = false;
@@ -128,28 +117,13 @@
             this.calenderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calenderButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calenderButton.ForeColor = System.Drawing.Color.White;
-            this.calenderButton.Location = new System.Drawing.Point(-3, 434);
-            this.calenderButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.calenderButton.Location = new System.Drawing.Point(-1, 182);
+            this.calenderButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.calenderButton.Name = "calenderButton";
-            this.calenderButton.Size = new System.Drawing.Size(555, 153);
+            this.calenderButton.Size = new System.Drawing.Size(208, 64);
             this.calenderButton.TabIndex = 12;
             this.calenderButton.Text = "Calender";
             this.calenderButton.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.pictureBox1.Image = global::ZuzaPlan.Properties.Resources.ZuzaPlan_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(32, 95);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(504, 172);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // classScheduleButton
             // 
@@ -158,10 +132,10 @@
             this.classScheduleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.classScheduleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.classScheduleButton.ForeColor = System.Drawing.Color.White;
-            this.classScheduleButton.Location = new System.Drawing.Point(3, 894);
-            this.classScheduleButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.classScheduleButton.Location = new System.Drawing.Point(1, 375);
+            this.classScheduleButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.classScheduleButton.Name = "classScheduleButton";
-            this.classScheduleButton.Size = new System.Drawing.Size(555, 153);
+            this.classScheduleButton.Size = new System.Drawing.Size(208, 64);
             this.classScheduleButton.TabIndex = 7;
             this.classScheduleButton.Text = "Class Schedule";
             this.classScheduleButton.UseVisualStyleBackColor = false;
@@ -173,10 +147,10 @@
             this.notesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.notesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.notesButton.ForeColor = System.Drawing.Color.White;
-            this.notesButton.Location = new System.Drawing.Point(5, 277);
-            this.notesButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.notesButton.Location = new System.Drawing.Point(2, 116);
+            this.notesButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.notesButton.Name = "notesButton";
-            this.notesButton.Size = new System.Drawing.Size(555, 153);
+            this.notesButton.Size = new System.Drawing.Size(208, 64);
             this.notesButton.TabIndex = 11;
             this.notesButton.Text = "Notes";
             this.notesButton.UseVisualStyleBackColor = false;
@@ -188,10 +162,10 @@
             this.onlineMeetingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.onlineMeetingButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.onlineMeetingButton.ForeColor = System.Drawing.Color.White;
-            this.onlineMeetingButton.Location = new System.Drawing.Point(0, 1052);
-            this.onlineMeetingButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.onlineMeetingButton.Location = new System.Drawing.Point(0, 441);
+            this.onlineMeetingButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.onlineMeetingButton.Name = "onlineMeetingButton";
-            this.onlineMeetingButton.Size = new System.Drawing.Size(555, 153);
+            this.onlineMeetingButton.Size = new System.Drawing.Size(208, 64);
             this.onlineMeetingButton.TabIndex = 9;
             this.onlineMeetingButton.Text = "Online Meetings";
             this.onlineMeetingButton.UseVisualStyleBackColor = false;
@@ -203,22 +177,22 @@
             this.tableLayoutPanel2.ColumnCount = 7;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.3007F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.6993F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 464F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 459F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 435F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 437F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 459F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 174F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 172F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 163F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 164F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 176F));
             this.tableLayoutPanel2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(629, 393);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(240, 167);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 5;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.21459F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 49.78541F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 241F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 243F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 250F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(3160, 1273);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 101F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 102F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 105F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1185, 534);
             this.tableLayoutPanel2.TabIndex = 6;
             // 
             // aboutButton
@@ -228,10 +202,9 @@
             this.aboutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aboutButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.aboutButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.aboutButton.Location = new System.Drawing.Point(141, 0);
-            this.aboutButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.aboutButton.Location = new System.Drawing.Point(53, 0);
             this.aboutButton.Name = "aboutButton";
-            this.aboutButton.Size = new System.Drawing.Size(139, 64);
+            this.aboutButton.Size = new System.Drawing.Size(52, 27);
             this.aboutButton.TabIndex = 7;
             this.aboutButton.Text = "About";
             this.aboutButton.UseVisualStyleBackColor = false;
@@ -245,30 +218,55 @@
             this.signInButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.signInButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.signInButton.Location = new System.Drawing.Point(0, 0);
-            this.signInButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.signInButton.Name = "signInButton";
-            this.signInButton.Size = new System.Drawing.Size(149, 64);
+            this.signInButton.Size = new System.Drawing.Size(56, 27);
             this.signInButton.TabIndex = 8;
             this.signInButton.Text = "Sign In";
             this.signInButton.UseVisualStyleBackColor = false;
+            this.signInButton.Click += new System.EventHandler(this.signInButton_Click);
             // 
             // navbar
             // 
             this.navbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.navbar.Controls.Add(this.signoutButton);
             this.navbar.Controls.Add(this.minimizeButton);
             this.navbar.Controls.Add(this.signInButton);
             this.navbar.Controls.Add(this.aboutButton);
             this.navbar.Controls.Add(this.maximizeButton);
             this.navbar.Controls.Add(this.exitButton);
             this.navbar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.navbar.Location = new System.Drawing.Point(560, 0);
-            this.navbar.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.navbar.Location = new System.Drawing.Point(210, 0);
             this.navbar.Name = "navbar";
-            this.navbar.Size = new System.Drawing.Size(3315, 64);
+            this.navbar.Size = new System.Drawing.Size(1248, 27);
             this.navbar.TabIndex = 9;
             this.navbar.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             this.navbar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.navbar_MouseDown);
             this.navbar.MouseMove += new System.Windows.Forms.MouseEventHandler(this.navbar_MouseMove);
+            // 
+            // signoutButton
+            // 
+            this.signoutButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.signoutButton.FlatAppearance.BorderSize = 0;
+            this.signoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.signoutButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signoutButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.signoutButton.Location = new System.Drawing.Point(102, 0);
+            this.signoutButton.Name = "signoutButton";
+            this.signoutButton.Size = new System.Drawing.Size(66, 27);
+            this.signoutButton.TabIndex = 12;
+            this.signoutButton.Text = "Sign Out";
+            this.signoutButton.UseVisualStyleBackColor = false;
+            this.signoutButton.Visible = false;
+            // 
+            // monthLabel
+            // 
+            this.monthLabel.AutoSize = true;
+            this.monthLabel.ForeColor = System.Drawing.Color.White;
+            this.monthLabel.Location = new System.Drawing.Point(271, 116);
+            this.monthLabel.Name = "monthLabel";
+            this.monthLabel.Size = new System.Drawing.Size(44, 13);
+            this.monthLabel.TabIndex = 10;
+            this.monthLabel.Text = "{month}";
             // 
             // minimizeButton
             // 
@@ -277,10 +275,9 @@
             this.minimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.minimizeButton.FlatAppearance.BorderSize = 0;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.minimizeButton.Location = new System.Drawing.Point(2923, 0);
-            this.minimizeButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.minimizeButton.Location = new System.Drawing.Point(1096, 0);
             this.minimizeButton.Name = "minimizeButton";
-            this.minimizeButton.Size = new System.Drawing.Size(120, 64);
+            this.minimizeButton.Size = new System.Drawing.Size(45, 27);
             this.minimizeButton.TabIndex = 10;
             this.minimizeButton.UseVisualStyleBackColor = false;
             this.minimizeButton.Click += new System.EventHandler(this.button2_Click);
@@ -292,10 +289,9 @@
             this.maximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.maximizeButton.FlatAppearance.BorderSize = 0;
             this.maximizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.maximizeButton.Location = new System.Drawing.Point(3059, 0);
-            this.maximizeButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.maximizeButton.Location = new System.Drawing.Point(1147, 0);
             this.maximizeButton.Name = "maximizeButton";
-            this.maximizeButton.Size = new System.Drawing.Size(120, 64);
+            this.maximizeButton.Size = new System.Drawing.Size(45, 27);
             this.maximizeButton.TabIndex = 11;
             this.maximizeButton.UseVisualStyleBackColor = false;
             this.maximizeButton.Click += new System.EventHandler(this.maximizeButton_Click);
@@ -308,38 +304,49 @@
             this.exitButton.FlatAppearance.BorderSize = 0;
             this.exitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exitButton.Location = new System.Drawing.Point(3195, 0);
-            this.exitButton.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.exitButton.Location = new System.Drawing.Point(1198, 0);
             this.exitButton.Name = "exitButton";
-            this.exitButton.Size = new System.Drawing.Size(120, 64);
+            this.exitButton.Size = new System.Drawing.Size(45, 27);
             this.exitButton.TabIndex = 0;
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.button1_Click_2);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.pictureBox1.Image = global::ZuzaPlan.Properties.Resources.ZuzaPlan_Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 40);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(189, 72);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // MainScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
-            this.ClientSize = new System.Drawing.Size(3875, 1788);
+            this.ClientSize = new System.Drawing.Size(1458, 750);
+            this.Controls.Add(this.monthLabel);
             this.Controls.Add(this.navbar);
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.Name = "MainScreen";
             this.Text = "ZuzaPlan";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.navbar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button onlineMeetingButton;
         private System.Windows.Forms.Button projectsButton;
@@ -355,6 +362,8 @@
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.Button minimizeButton;
         private System.Windows.Forms.Button maximizeButton;
+        private System.Windows.Forms.Button signoutButton;
+        private System.Windows.Forms.Label monthLabel;
     }
 }
 #endregion
