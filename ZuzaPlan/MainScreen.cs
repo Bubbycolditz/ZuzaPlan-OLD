@@ -119,7 +119,16 @@ namespace ZuzaPlan
 
         private void maximizeButton_Click(object sender, EventArgs e)
         {
-            WindowState = FormWindowState.Maximized;
+            if(WindowState == FormWindowState.Normal)
+            {
+                WindowState = FormWindowState.Maximized;
+                maximizeButton.BackgroundImage = ZuzaPlan.Properties.Resources.Windowed;
+
+            } else 
+            {
+                WindowState = FormWindowState.Normal;
+                maximizeButton.BackgroundImage = ZuzaPlan.Properties.Resources.Maximize;
+            }
         }
 
         private void navbar_MouseDown(object sender, MouseEventArgs e)
@@ -140,6 +149,11 @@ namespace ZuzaPlan
         {
             SignInScreen signinScreen = new SignInScreen();
             signinScreen.Show();
+        }
+
+        private void assignmentsButton_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

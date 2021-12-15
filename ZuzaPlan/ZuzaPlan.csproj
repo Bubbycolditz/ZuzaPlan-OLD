@@ -136,6 +136,7 @@
     <None Include="Resources\Exit.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Windowed.png" />
     <Content Include="ZuzaPlan Icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

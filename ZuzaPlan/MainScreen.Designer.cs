@@ -64,7 +64,7 @@
             this.panel1.Controls.Add(this.onlineMeetingButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(210, 750);
             this.panel1.TabIndex = 5;
@@ -73,7 +73,7 @@
             // 
             this.lineSeparator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(170)))), ((int)(((byte)(225)))));
             this.lineSeparator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lineSeparator.Location = new System.Drawing.Point(-1, 112);
+            this.lineSeparator.Location = new System.Drawing.Point(-1, 87);
             this.lineSeparator.Name = "lineSeparator";
             this.lineSeparator.Size = new System.Drawing.Size(240, 3);
             this.lineSeparator.TabIndex = 8;
@@ -86,8 +86,8 @@
             this.projectsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.projectsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.projectsButton.ForeColor = System.Drawing.Color.White;
-            this.projectsButton.Location = new System.Drawing.Point(0, 309);
-            this.projectsButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.projectsButton.Location = new System.Drawing.Point(2, 283);
+            this.projectsButton.Margin = new System.Windows.Forms.Padding(1);
             this.projectsButton.Name = "projectsButton";
             this.projectsButton.Size = new System.Drawing.Size(208, 64);
             this.projectsButton.TabIndex = 8;
@@ -102,13 +102,14 @@
             this.assignmentsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.assignmentsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.assignmentsButton.ForeColor = System.Drawing.Color.White;
-            this.assignmentsButton.Location = new System.Drawing.Point(2, 248);
-            this.assignmentsButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.assignmentsButton.Location = new System.Drawing.Point(2, 222);
+            this.assignmentsButton.Margin = new System.Windows.Forms.Padding(1);
             this.assignmentsButton.Name = "assignmentsButton";
             this.assignmentsButton.Size = new System.Drawing.Size(208, 64);
             this.assignmentsButton.TabIndex = 10;
             this.assignmentsButton.Text = "Assignments ";
             this.assignmentsButton.UseVisualStyleBackColor = false;
+            this.assignmentsButton.Click += new System.EventHandler(this.assignmentsButton_Click);
             // 
             // calenderButton
             // 
@@ -117,8 +118,8 @@
             this.calenderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.calenderButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.calenderButton.ForeColor = System.Drawing.Color.White;
-            this.calenderButton.Location = new System.Drawing.Point(-1, 182);
-            this.calenderButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.calenderButton.Location = new System.Drawing.Point(2, 156);
+            this.calenderButton.Margin = new System.Windows.Forms.Padding(1);
             this.calenderButton.Name = "calenderButton";
             this.calenderButton.Size = new System.Drawing.Size(208, 64);
             this.calenderButton.TabIndex = 12;
@@ -132,8 +133,8 @@
             this.classScheduleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.classScheduleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.classScheduleButton.ForeColor = System.Drawing.Color.White;
-            this.classScheduleButton.Location = new System.Drawing.Point(1, 375);
-            this.classScheduleButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.classScheduleButton.Location = new System.Drawing.Point(2, 349);
+            this.classScheduleButton.Margin = new System.Windows.Forms.Padding(1);
             this.classScheduleButton.Name = "classScheduleButton";
             this.classScheduleButton.Size = new System.Drawing.Size(208, 64);
             this.classScheduleButton.TabIndex = 7;
@@ -147,8 +148,8 @@
             this.notesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.notesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.notesButton.ForeColor = System.Drawing.Color.White;
-            this.notesButton.Location = new System.Drawing.Point(2, 116);
-            this.notesButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.notesButton.Location = new System.Drawing.Point(2, 90);
+            this.notesButton.Margin = new System.Windows.Forms.Padding(1);
             this.notesButton.Name = "notesButton";
             this.notesButton.Size = new System.Drawing.Size(208, 64);
             this.notesButton.TabIndex = 11;
@@ -162,8 +163,8 @@
             this.onlineMeetingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.onlineMeetingButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.onlineMeetingButton.ForeColor = System.Drawing.Color.White;
-            this.onlineMeetingButton.Location = new System.Drawing.Point(0, 441);
-            this.onlineMeetingButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.onlineMeetingButton.Location = new System.Drawing.Point(2, 415);
+            this.onlineMeetingButton.Margin = new System.Windows.Forms.Padding(1);
             this.onlineMeetingButton.Name = "onlineMeetingButton";
             this.onlineMeetingButton.Size = new System.Drawing.Size(208, 64);
             this.onlineMeetingButton.TabIndex = 9;
@@ -181,10 +182,10 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 172F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 163F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 164F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 176F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 185F));
             this.tableLayoutPanel2.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(240, 167);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(1);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 5;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.21459F));
@@ -270,12 +271,13 @@
             // 
             // minimizeButton
             // 
+            this.minimizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.minimizeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.minimizeButton.BackgroundImage = global::ZuzaPlan.Properties.Resources.Minimize;
             this.minimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.minimizeButton.FlatAppearance.BorderSize = 0;
             this.minimizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.minimizeButton.Location = new System.Drawing.Point(1096, 0);
+            this.minimizeButton.Location = new System.Drawing.Point(1101, 0);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(45, 27);
             this.minimizeButton.TabIndex = 10;
@@ -284,12 +286,13 @@
             // 
             // maximizeButton
             // 
+            this.maximizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.maximizeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.maximizeButton.BackgroundImage = global::ZuzaPlan.Properties.Resources.Maximize;
             this.maximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.maximizeButton.FlatAppearance.BorderSize = 0;
             this.maximizeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.maximizeButton.Location = new System.Drawing.Point(1147, 0);
+            this.maximizeButton.Location = new System.Drawing.Point(1152, 0);
             this.maximizeButton.Name = "maximizeButton";
             this.maximizeButton.Size = new System.Drawing.Size(45, 27);
             this.maximizeButton.TabIndex = 11;
@@ -298,13 +301,14 @@
             // 
             // exitButton
             // 
+            this.exitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.exitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
             this.exitButton.BackgroundImage = global::ZuzaPlan.Properties.Resources.Exit;
             this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.exitButton.FlatAppearance.BorderSize = 0;
             this.exitButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.exitButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.exitButton.Location = new System.Drawing.Point(1198, 0);
+            this.exitButton.Location = new System.Drawing.Point(1203, 0);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(45, 27);
             this.exitButton.TabIndex = 0;
@@ -317,7 +321,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox1.Image = global::ZuzaPlan.Properties.Resources.ZuzaPlan_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 40);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(189, 72);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

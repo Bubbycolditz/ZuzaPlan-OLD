@@ -93,6 +93,16 @@ namespace ZuzaPlan.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Windowed {
+            get {
+                object obj = ResourceManager.GetObject("Windowed", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ZuzaPlan_Logo {
             get {
                 object obj = ResourceManager.GetObject("ZuzaPlan Logo", resourceCulture);
