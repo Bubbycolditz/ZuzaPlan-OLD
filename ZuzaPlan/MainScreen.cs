@@ -118,5 +118,30 @@ namespace ZuzaPlan {
         private void assignmentsButton_Click(object sender, EventArgs e) {
 
         }
+
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel33_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
