@@ -9,7 +9,7 @@
   <h3 align="center">ZuzaPlan</h3>
 
   <p align="center">
-    The next revolutionary Reminders system
+    A new revolutionary Reminders system
     <br />
     <a href="https://github.com/bubbycolditz/ZuzaPlan/issues">Report Bug</a>
     ·
