@@ -8,7 +8,6 @@ namespace ZuzaPlan {
         public MainScreen() {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e) {
 
         }
@@ -93,7 +92,6 @@ namespace ZuzaPlan {
             if (WindowState == FormWindowState.Normal) {
                 WindowState = FormWindowState.Maximized;
                 maximizeButton.BackgroundImage = ZuzaPlan.Properties.Resources.Windowed;
-
             } else {
                 WindowState = FormWindowState.Normal;
                 maximizeButton.BackgroundImage = ZuzaPlan.Properties.Resources.Maximize;
@@ -114,8 +112,7 @@ namespace ZuzaPlan {
         Point lastPoint;
         private void navbar_MouseMove(object sender, MouseEventArgs e) {
             if (e.Button == MouseButtons.Left) {
-                if (WindowState == FormWindowState.Maximized)
-                {
+                if (WindowState == FormWindowState.Maximized) {
                     WindowState = FormWindowState.Normal;
                 }
                 this.Left += e.X - lastPoint.X;
@@ -123,11 +120,9 @@ namespace ZuzaPlan {
             }
         }
 
-        protected override void WndProc(ref Message m)
-        {
+        protected override void WndProc(ref Message m) {
             const int WM_NCCALCSIZE = 0x0083;
-            if (m.Msg == WM_NCCALCSIZE && m.WParam.ToInt32() == 1)
-            {
+            if (m.Msg == WM_NCCALCSIZE && m.WParam.ToInt32() == 1) {
                 return;
             }
             base.WndProc(ref m);
@@ -142,51 +137,42 @@ namespace ZuzaPlan {
 
         }
 
-        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e)
-        {
+        private void flowLayoutPanel2_Paint(object sender, PaintEventArgs e) {
 
         }
 
-        private void tableLayoutPanel2_Paint_1(object sender, PaintEventArgs e)
-        {
+        private void tableLayoutPanel2_Paint_1(object sender, PaintEventArgs e) {
 
         }
 
-        private void label1_Click_1(object sender, EventArgs e)
-        {
+        private void label1_Click_1(object sender, EventArgs e) {
 
         }
 
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e) {
 
         }
 
-        private void panel33_Paint(object sender, PaintEventArgs e)
-        {
+        private void panel33_Paint(object sender, PaintEventArgs e) {
 
         }
 
-        private void panel2_Paint_1(object sender, PaintEventArgs e)
-        {
+        private void panel2_Paint_1(object sender, PaintEventArgs e) {
 
         }
 
-        private void MainScreen_Resize(object sender, EventArgs e)
-        {
+        private void MainScreen_Resize(object sender, EventArgs e) {
             AdjustForm();
         }
 
-        private void AdjustForm()
-        {
-            switch (this.WindowState)
-            {
+        private void AdjustForm() {
+            switch (this.WindowState) {
                 case FormWindowState.Maximized:
                     this.Padding = new Padding(0, 8, 8, 0);
                     break;
                 case FormWindowState.Normal:
                     if (this.Padding.Top != 0)
-                    this.Padding = new Padding(0);
+                        this.Padding = new Padding(0);
                     break;
             }
         }

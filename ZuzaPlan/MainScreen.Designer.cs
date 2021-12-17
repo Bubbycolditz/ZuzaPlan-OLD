@@ -87,14 +87,14 @@
             this.thursdayText = new System.Windows.Forms.Label();
             this.saturdayText = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             this.navbar.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.panel1.Controls.Add(this.lineSeparator);
             this.panel1.Controls.Add(this.projectsButton);
             this.panel1.Controls.Add(this.assignmentsButton);
@@ -112,7 +112,7 @@
             // 
             // lineSeparator
             // 
-            this.lineSeparator.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(170)))), ((int)(((byte)(225)))));
+            this.lineSeparator.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (37)))), ((int) (((byte) (170)))), ((int) (((byte) (225)))));
             this.lineSeparator.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lineSeparator.Location = new System.Drawing.Point(-1, 87);
             this.lineSeparator.Name = "lineSeparator";
@@ -122,10 +122,10 @@
             // 
             // projectsButton
             // 
-            this.projectsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.projectsButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.projectsButton.FlatAppearance.BorderSize = 0;
             this.projectsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.projectsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.projectsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.projectsButton.ForeColor = System.Drawing.Color.White;
             this.projectsButton.Location = new System.Drawing.Point(2, 283);
             this.projectsButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -138,10 +138,10 @@
             // 
             // assignmentsButton
             // 
-            this.assignmentsButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.assignmentsButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.assignmentsButton.FlatAppearance.BorderSize = 0;
             this.assignmentsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.assignmentsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.assignmentsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.assignmentsButton.ForeColor = System.Drawing.Color.White;
             this.assignmentsButton.Location = new System.Drawing.Point(2, 222);
             this.assignmentsButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -154,10 +154,10 @@
             // 
             // calenderButton
             // 
-            this.calenderButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.calenderButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.calenderButton.FlatAppearance.BorderSize = 0;
             this.calenderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.calenderButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calenderButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.calenderButton.ForeColor = System.Drawing.Color.White;
             this.calenderButton.Location = new System.Drawing.Point(2, 156);
             this.calenderButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -183,10 +183,10 @@
             // 
             // classScheduleButton
             // 
-            this.classScheduleButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.classScheduleButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.classScheduleButton.FlatAppearance.BorderSize = 0;
             this.classScheduleButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.classScheduleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.classScheduleButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.classScheduleButton.ForeColor = System.Drawing.Color.White;
             this.classScheduleButton.Location = new System.Drawing.Point(2, 349);
             this.classScheduleButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -198,10 +198,10 @@
             // 
             // notesButton
             // 
-            this.notesButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.notesButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.notesButton.FlatAppearance.BorderSize = 0;
             this.notesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.notesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.notesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.notesButton.ForeColor = System.Drawing.Color.White;
             this.notesButton.Location = new System.Drawing.Point(2, 90);
             this.notesButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -213,10 +213,10 @@
             // 
             // onlineMeetingButton
             // 
-            this.onlineMeetingButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.onlineMeetingButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.onlineMeetingButton.FlatAppearance.BorderSize = 0;
             this.onlineMeetingButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.onlineMeetingButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.onlineMeetingButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.onlineMeetingButton.ForeColor = System.Drawing.Color.White;
             this.onlineMeetingButton.Location = new System.Drawing.Point(2, 415);
             this.onlineMeetingButton.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -228,10 +228,10 @@
             // 
             // aboutButton
             // 
-            this.aboutButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.aboutButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.aboutButton.FlatAppearance.BorderSize = 0;
             this.aboutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.aboutButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aboutButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.aboutButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.aboutButton.Location = new System.Drawing.Point(53, 0);
             this.aboutButton.Name = "aboutButton";
@@ -243,10 +243,10 @@
             // 
             // signInButton
             // 
-            this.signInButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.signInButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.signInButton.FlatAppearance.BorderSize = 0;
             this.signInButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.signInButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signInButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.signInButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.signInButton.Location = new System.Drawing.Point(0, 0);
             this.signInButton.Name = "signInButton";
@@ -258,7 +258,7 @@
             // 
             // navbar
             // 
-            this.navbar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.navbar.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.navbar.Controls.Add(this.signoutButton);
             this.navbar.Controls.Add(this.minimizeButton);
             this.navbar.Controls.Add(this.signInButton);
@@ -276,10 +276,10 @@
             // 
             // signoutButton
             // 
-            this.signoutButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.signoutButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.signoutButton.FlatAppearance.BorderSize = 0;
             this.signoutButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.signoutButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signoutButton.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.signoutButton.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.signoutButton.Location = new System.Drawing.Point(102, 0);
             this.signoutButton.Name = "signoutButton";
@@ -291,8 +291,8 @@
             // 
             // minimizeButton
             // 
-            this.minimizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.minimizeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.minimizeButton.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.minimizeButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.minimizeButton.BackgroundImage = global::ZuzaPlan.Properties.Resources.Minimize;
             this.minimizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.minimizeButton.FlatAppearance.BorderSize = 0;
@@ -306,8 +306,8 @@
             // 
             // maximizeButton
             // 
-            this.maximizeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.maximizeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.maximizeButton.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.maximizeButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.maximizeButton.BackgroundImage = global::ZuzaPlan.Properties.Resources.Maximize;
             this.maximizeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.maximizeButton.FlatAppearance.BorderSize = 0;
@@ -321,8 +321,8 @@
             // 
             // exitButton
             // 
-            this.exitButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.exitButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(44)))), ((int)(((byte)(44)))));
+            this.exitButton.Anchor = ((System.Windows.Forms.AnchorStyles) ((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.exitButton.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (44)))), ((int) (((byte) (44)))), ((int) (((byte) (44)))));
             this.exitButton.BackgroundImage = global::ZuzaPlan.Properties.Resources.Exit;
             this.exitButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.exitButton.FlatAppearance.BorderSize = 0;
@@ -338,7 +338,7 @@
             // monthLabel
             // 
             this.monthLabel.AutoSize = true;
-            this.monthLabel.Font = new System.Drawing.Font("Palatino Linotype", 20.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.monthLabel.Font = new System.Drawing.Font("Palatino Linotype", 20.1F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.monthLabel.ForeColor = System.Drawing.Color.White;
             this.monthLabel.Location = new System.Drawing.Point(525, 51);
             this.monthLabel.Name = "monthLabel";
@@ -394,7 +394,7 @@
             // 
             this.panel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel2.ForeColor = System.Drawing.Color.Black;
             this.panel2.Location = new System.Drawing.Point(1, 1);
             this.panel2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -407,7 +407,7 @@
             // 
             this.panel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel3.ForeColor = System.Drawing.Color.Black;
             this.panel3.Location = new System.Drawing.Point(104, 1);
             this.panel3.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -419,7 +419,7 @@
             // 
             this.panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel4.ForeColor = System.Drawing.Color.Black;
             this.panel4.Location = new System.Drawing.Point(207, 1);
             this.panel4.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -431,7 +431,7 @@
             // 
             this.panel5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel5.ForeColor = System.Drawing.Color.Black;
             this.panel5.Location = new System.Drawing.Point(310, 1);
             this.panel5.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -443,7 +443,7 @@
             // 
             this.panel7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel7.ForeColor = System.Drawing.Color.Black;
             this.panel7.Location = new System.Drawing.Point(413, 1);
             this.panel7.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -455,7 +455,7 @@
             // 
             this.panel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel6.ForeColor = System.Drawing.Color.Black;
             this.panel6.Location = new System.Drawing.Point(516, 1);
             this.panel6.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -467,7 +467,7 @@
             // 
             this.panel9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel9.ForeColor = System.Drawing.Color.Black;
             this.panel9.Location = new System.Drawing.Point(1, 94);
             this.panel9.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -479,7 +479,7 @@
             // 
             this.panel10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel10.ForeColor = System.Drawing.Color.Black;
             this.panel10.Location = new System.Drawing.Point(104, 94);
             this.panel10.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -491,7 +491,7 @@
             // 
             this.panel11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel11.ForeColor = System.Drawing.Color.Black;
             this.panel11.Location = new System.Drawing.Point(207, 94);
             this.panel11.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -503,7 +503,7 @@
             // 
             this.panel12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel12.ForeColor = System.Drawing.Color.Black;
             this.panel12.Location = new System.Drawing.Point(310, 94);
             this.panel12.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -515,7 +515,7 @@
             // 
             this.panel13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel13.ForeColor = System.Drawing.Color.Black;
             this.panel13.Location = new System.Drawing.Point(413, 94);
             this.panel13.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -527,7 +527,7 @@
             // 
             this.panel14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel14.ForeColor = System.Drawing.Color.Black;
             this.panel14.Location = new System.Drawing.Point(516, 94);
             this.panel14.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -539,7 +539,7 @@
             // 
             this.panel15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel15.ForeColor = System.Drawing.Color.Black;
             this.panel15.Location = new System.Drawing.Point(1, 187);
             this.panel15.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -551,7 +551,7 @@
             // 
             this.panel16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel16.ForeColor = System.Drawing.Color.Black;
             this.panel16.Location = new System.Drawing.Point(104, 187);
             this.panel16.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -563,7 +563,7 @@
             // 
             this.panel17.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel17.ForeColor = System.Drawing.Color.Black;
             this.panel17.Location = new System.Drawing.Point(207, 187);
             this.panel17.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -575,7 +575,7 @@
             // 
             this.panel18.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel18.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel18.ForeColor = System.Drawing.Color.Black;
             this.panel18.Location = new System.Drawing.Point(310, 187);
             this.panel18.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -587,7 +587,7 @@
             // 
             this.panel19.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel19.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel19.ForeColor = System.Drawing.Color.Black;
             this.panel19.Location = new System.Drawing.Point(413, 187);
             this.panel19.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -599,7 +599,7 @@
             // 
             this.panel20.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel20.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel20.ForeColor = System.Drawing.Color.Black;
             this.panel20.Location = new System.Drawing.Point(516, 187);
             this.panel20.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -611,7 +611,7 @@
             // 
             this.panel21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel21.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel21.ForeColor = System.Drawing.Color.Black;
             this.panel21.Location = new System.Drawing.Point(1, 280);
             this.panel21.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -623,7 +623,7 @@
             // 
             this.panel22.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel22.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel22.ForeColor = System.Drawing.Color.Black;
             this.panel22.Location = new System.Drawing.Point(104, 280);
             this.panel22.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -635,7 +635,7 @@
             // 
             this.panel23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel23.ForeColor = System.Drawing.Color.Black;
             this.panel23.Location = new System.Drawing.Point(207, 280);
             this.panel23.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -647,7 +647,7 @@
             // 
             this.panel24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel24.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel24.ForeColor = System.Drawing.Color.Black;
             this.panel24.Location = new System.Drawing.Point(310, 280);
             this.panel24.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -659,7 +659,7 @@
             // 
             this.panel25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel25.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel25.ForeColor = System.Drawing.Color.Black;
             this.panel25.Location = new System.Drawing.Point(413, 280);
             this.panel25.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -671,7 +671,7 @@
             // 
             this.panel26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel26.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel26.ForeColor = System.Drawing.Color.Black;
             this.panel26.Location = new System.Drawing.Point(516, 280);
             this.panel26.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -683,7 +683,7 @@
             // 
             this.panel27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel27.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel27.ForeColor = System.Drawing.Color.Black;
             this.panel27.Location = new System.Drawing.Point(1, 373);
             this.panel27.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -695,7 +695,7 @@
             // 
             this.panel28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel28.ForeColor = System.Drawing.Color.Black;
             this.panel28.Location = new System.Drawing.Point(104, 373);
             this.panel28.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -707,7 +707,7 @@
             // 
             this.panel29.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel29.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel29.ForeColor = System.Drawing.Color.Black;
             this.panel29.Location = new System.Drawing.Point(207, 373);
             this.panel29.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -719,7 +719,7 @@
             // 
             this.panel30.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel30.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel30.ForeColor = System.Drawing.Color.Black;
             this.panel30.Location = new System.Drawing.Point(310, 373);
             this.panel30.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -731,7 +731,7 @@
             // 
             this.panel31.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel31.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel31.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel31.ForeColor = System.Drawing.Color.Black;
             this.panel31.Location = new System.Drawing.Point(413, 373);
             this.panel31.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -743,7 +743,7 @@
             // 
             this.panel32.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel32.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel32.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel32.ForeColor = System.Drawing.Color.Black;
             this.panel32.Location = new System.Drawing.Point(516, 373);
             this.panel32.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -755,7 +755,7 @@
             // 
             this.panel33.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel33.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel33.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel33.ForeColor = System.Drawing.Color.Black;
             this.panel33.Location = new System.Drawing.Point(1, 466);
             this.panel33.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -768,7 +768,7 @@
             // 
             this.panel34.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel34.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel34.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel34.ForeColor = System.Drawing.Color.Black;
             this.panel34.Location = new System.Drawing.Point(104, 466);
             this.panel34.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -780,7 +780,7 @@
             // 
             this.panel35.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel35.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel35.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel35.ForeColor = System.Drawing.Color.Black;
             this.panel35.Location = new System.Drawing.Point(207, 466);
             this.panel35.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -792,7 +792,7 @@
             // 
             this.panel36.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel36.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel36.ForeColor = System.Drawing.Color.Black;
             this.panel36.Location = new System.Drawing.Point(310, 466);
             this.panel36.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -804,7 +804,7 @@
             // 
             this.panel8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.panel8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.panel8.ForeColor = System.Drawing.Color.Black;
             this.panel8.Location = new System.Drawing.Point(413, 466);
             this.panel8.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
@@ -835,7 +835,7 @@
             // sundayText
             // 
             this.sundayText.AutoSize = true;
-            this.sundayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sundayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.sundayText.ForeColor = System.Drawing.Color.White;
             this.sundayText.Location = new System.Drawing.Point(270, 117);
             this.sundayText.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
@@ -848,7 +848,7 @@
             // mondayText
             // 
             this.mondayText.AutoSize = true;
-            this.mondayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mondayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.mondayText.ForeColor = System.Drawing.Color.White;
             this.mondayText.Location = new System.Drawing.Point(361, 117);
             this.mondayText.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
@@ -860,7 +860,7 @@
             // wednesdayText
             // 
             this.wednesdayText.AutoSize = true;
-            this.wednesdayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wednesdayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.wednesdayText.ForeColor = System.Drawing.Color.White;
             this.wednesdayText.Location = new System.Drawing.Point(550, 117);
             this.wednesdayText.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
@@ -872,7 +872,7 @@
             // tuesdayText
             // 
             this.tuesdayText.AutoSize = true;
-            this.tuesdayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tuesdayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.tuesdayText.ForeColor = System.Drawing.Color.White;
             this.tuesdayText.Location = new System.Drawing.Point(463, 117);
             this.tuesdayText.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
@@ -884,7 +884,7 @@
             // fridayText
             // 
             this.fridayText.AutoSize = true;
-            this.fridayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fridayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.fridayText.ForeColor = System.Drawing.Color.White;
             this.fridayText.Location = new System.Drawing.Point(778, 117);
             this.fridayText.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
@@ -896,7 +896,7 @@
             // thursdayText
             // 
             this.thursdayText.AutoSize = true;
-            this.thursdayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.thursdayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.thursdayText.ForeColor = System.Drawing.Color.White;
             this.thursdayText.Location = new System.Drawing.Point(663, 117);
             this.thursdayText.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
@@ -908,7 +908,7 @@
             // saturdayText
             // 
             this.saturdayText.AutoSize = true;
-            this.saturdayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saturdayText.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.saturdayText.ForeColor = System.Drawing.Color.White;
             this.saturdayText.Location = new System.Drawing.Point(866, 117);
             this.saturdayText.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
@@ -921,7 +921,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(57)))), ((int)(((byte)(57)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (57)))), ((int) (((byte) (57)))), ((int) (((byte) (57)))));
             this.ClientSize = new System.Drawing.Size(984, 750);
             this.Controls.Add(this.saturdayText);
             this.Controls.Add(this.fridayText);
@@ -936,13 +936,13 @@
             this.Controls.Add(this.monthLabel);
             this.Controls.Add(this.navbar);
             this.Controls.Add(this.panel1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Name = "MainScreen";
             this.Text = "ZuzaPlan";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Resize += new System.EventHandler(this.MainScreen_Resize);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();
             this.navbar.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
