@@ -71,6 +71,24 @@
     <Compile Include="AboutScreen.Designer.cs">
       <DependentUpon>AboutScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="AssignmentsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AssignmentsScreen.Designer.cs">
+      <DependentUpon>AssignmentsScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CalendarScreen.Designer.cs">
+      <DependentUpon>CalendarScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClassScheduleScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassScheduleScreen.Designer.cs">
+      <DependentUpon>ClassScheduleScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,7 +101,25 @@
     <Compile Include="MainScreen.Designer.cs">
       <DependentUpon>MainScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="NotesScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotesScreen.Designer.cs">
+      <DependentUpon>NotesScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OnlineMeetingsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OnlineMeetingsScreen.Designer.cs">
+      <DependentUpon>OnlineMeetingsScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="ProjectsScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProjectsScreen.Designer.cs">
+      <DependentUpon>ProjectsScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AboutScreen.resx">
       <DependentUpon>AboutScreen.cs</DependentUpon>
