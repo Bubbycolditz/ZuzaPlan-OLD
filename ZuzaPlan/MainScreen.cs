@@ -7,10 +7,14 @@ namespace ZuzaPlan {
     public partial class MainScreen : Form {
         public MainScreen() {
             InitializeComponent();
+            /*var calendar = new Dictionary<VARDESC, string>
+            for (int i = 0; i < 31; i++) {
+                string day = "calendarDay" + i.ToString();
+                day.Text = i;
+            }*/
         }
         private void Form1_Load(object sender, EventArgs e) {
-
-        }
+    }
 
         private void buttonTest_Click(object sender, EventArgs e) {
 
@@ -111,8 +115,10 @@ namespace ZuzaPlan {
         }
         Point lastPoint;
         private void navbar_MouseMove(object sender, MouseEventArgs e) {
-            if (e.Button == MouseButtons.Left) {
-                if (WindowState == FormWindowState.Maximized) {
+            if (e.Button == MouseButtons.Left)
+            {
+                if (WindowState == FormWindowState.Maximized)
+                {
                     WindowState = FormWindowState.Normal;
                 }
                 this.Left += e.X - lastPoint.X;
