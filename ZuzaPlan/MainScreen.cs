@@ -182,5 +182,9 @@ namespace ZuzaPlan {
                     break;
             }
         }
+        private void calendarDay3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

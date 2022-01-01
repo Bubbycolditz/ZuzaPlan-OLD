@@ -426,6 +426,7 @@
             this.calendarDay3.Name = "calendarDay3";
             this.calendarDay3.Size = new System.Drawing.Size(101, 91);
             this.calendarDay3.TabIndex = 2;
+            this.calendarDay3.Paint += new System.Windows.Forms.PaintEventHandler(this.calendarDay3_Paint);
             // 
             // calendarDay4
             // 
