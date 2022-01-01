@@ -144,7 +144,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.emailInput);
             this.Controls.Add(this.signinButton);
-            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SignInScreen";
             this.Text = "ZuzaPlan Login";
             this.ResumeLayout(false);
