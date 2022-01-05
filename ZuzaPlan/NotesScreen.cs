@@ -16,5 +16,15 @@ namespace ZuzaPlan
         {
             InitializeComponent();
         }
+
+        private void NotesScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
